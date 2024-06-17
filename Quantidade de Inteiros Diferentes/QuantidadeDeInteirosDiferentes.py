@@ -2,8 +2,6 @@ quantidade = int (input ("Digite a quantidade de números a inserir: "))
 
 lista = set()
 
-contaNúmeros = 0
-
 for x in range (quantidade):
     números = int(input("Digite os números: "))
     lista.add(números)
